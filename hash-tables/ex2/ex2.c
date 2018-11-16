@@ -10,7 +10,8 @@ char **reconstruct_trip(Ticket **tickets, int length)
   char **route = malloc(length * sizeof(char *));
 
   for (int i = 0; i < length; i++) {
-    hash_table_insert();
+    printf("i: %d\n", i);
+    printf("%d\n", tickets[i]);
     }
   return route;
 }

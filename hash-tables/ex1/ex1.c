@@ -22,6 +22,7 @@ Answer *get_indices_of_item_weights(int *weights, int length, int limit)
     }
     else {
       hash_table_insert(ht, limit-weights[i], i);
+      printf("inserting %d\n", i);
     }
   }
   return NULL;
